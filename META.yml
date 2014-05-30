@@ -1,0 +1,28 @@
+---
+abstract: 'Plugin for readable numbers'
+author:
+  - 'Nic Sandfield <niczero@cpan.org>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Mojolicious-Plugin-Number-Commify
+no_index:
+  directory:
+    - t
+    - inc
+    - test
+requires:
+  Mojolicious: 3.33
+  perl: 5.010001
+resources:
+  bugtracker: http://github.com/niczero/mojolicious-plugin-number-commify/issues
+  license: http://www.opensource.org/licenses/artistic-license-2.0
+  repository: http://github.com/niczero/mojolicious-plugin-number-commify
+version: 0.011
